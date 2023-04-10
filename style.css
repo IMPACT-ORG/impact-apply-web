@@ -245,11 +245,22 @@ span:nth-child(9) {
     margin-top: 700px;
   }
   #section-8 .text-1{
-    margin-top: 1000px;
+    margin-top: 1400px;
     padding-bottom: 100px;
   }
   .text{
     font-size: 20px;
-    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -60px;
+  }
+  #section-1 .text-1{
+    font-size: 15px;
+  }
+  #section-3 .text-1{
+    font-size: 14px;
+  }
+  .s6-box h2{
+    font-size: 15px;
   }
 }
