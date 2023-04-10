@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="./js/firebase.js"></script>
+    <title>IMPACT-모집</title>
+  </head>
+  <body>
+    <div class="text" style="height: 100vh">
+      <h1 class="textanimation">
+        <span>우리는</span>
+        <span>아직</span>
+        <span>학생이지만</span>
+        <br /><br />
+        <span>세상에</span>
+        <span>임팩트를</span>
+        <span>만들어가기에</span>
+        <span>충분해요.</span>
+      </h1>
+    </div>
+    <section id="section-1">
+      <div class="text-1">
+        <h1>안녕하세요🖐<br />IMPACT(임팩트)입니다!</h1>
+        <h1>
+          우리는 학생들이 서로 다양한 IT 프로젝트와 창업 활동을 <br />
+          통해 성장하는데 도움을 주는 비영리단체입니다.
+        </h1>
+      </div>
+    </section>
+    <section id="section-2">
+      <div class="text-1">
+        <h1>
+          지금까지 많은 학생들이 IMPACT와 함께 팀을 구성하여 아이디어를<br />
+          실현하고 성공적인 결과를 이뤄낸 바 있습니다. 🚀
+        </h1>
+      </div>
+      <div class="img">
+        <div class="img-1">
+          <img src="./img/2.jpg" alt="img-1" />
+        </div>
+        <div class="img-2">
+          <img src="./img/1.jpg" alt="img-2" />
+        </div>
+        <div class="img-3">
+          <img src="./img/3.jpg" alt="img-3" />
+        </div>
+      </div>
+    </section>
+    <section id="section-3">
+      <div class="text-1">
+        <h1>
+          IMPACT는 더 많은 학생들과 다양한 아이디어를 발굴하고<br />
+          지원하기 위해 새로운 운영진을 찾고 있습니다!
+        </h1>
+      </div>
+    </section>
+    <section id="section-5">
+      <div class="text-1">
+        <h1>지원자격</h1>
+        <div class="s5-box-container">
+          <div class="s5-box">
+            <h2>😊<br />책임감 강하고 <br />협업을 잘 하는 분</h2>
+          </div>
+          <div class="s5-box">
+            <h2>
+              😊<br />프로젝트 및 창업에 관심이 <br />많고, 학생들이 성장하는데
+              <br />도움을 주고 싶으신 분
+            </h2>
+          </div>
+          <div class="s5-box">
+            <h2>😊<br />새로운 도전에 <br />두려움이 없으신 분</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-6">
+      <div class="text-1">
+        <h1>2023 IMPACT가 하는 활동</h1>
+        <div class="s6-box">
+          <h2>
+            📅<br />
+            1. 분야별 세미나 기획 / 운영<br />
+            2. 디미고 교내 해커톤 기획 / 운영<br />
+            3. 국내 최대 고등학생 IT 컨퍼런스 기획 / 운영
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section id="section-7">
+      <div class="text-1">
+        <h1>임팩트는 이런 사람들을 원해요</h1>
+        <div class="s5-box-container">
+          <div class="s5-box">
+            <h2>😊<br />익스프리먼트<br /></h2>
+            <h3>
+              지원자의 과거 경험, 관련분야 지식 및 <br />활동내역을 평가합니다.
+            </h3>
+          </div>
+          <div class="s5-box">
+            <h2>😊<br />빠릿빠릿성<br /></h2>
+            <h3>
+              시간 관리, 창의성, 문제 해결 <br />능력, 조직력 등을 평가합니다.
+            </h3>
+          </div>
+          <div class="s5-box">
+            <h2>😊<br />말잘듣기<br /></h2>
+            <h3>
+              의견을 존중하고 표현할 수 <br />있는지, 팀원들과 원활한 관계를<br />
+              유지할 수 있는지를 평가합니다.
+            </h3>
+          </div>
+          <div class="s5-box">
+            <h2>😊<br />카리스마<br /></h2>
+            <h3>
+              조직의 비전을 공유하며 <br />팀원들을 이끌고 동기부여할 수<br />
+              있는 능력을 확인합니다.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-8">
+      <div class="text-1">
+        <h1>임팩트 지원하기</h1>
+        <form>
+          <input class="form1" placeholder="이름" type="text" id="name" required/><br />
+          <input class="form2" placeholder="나이" type="text" id="age" required/><br />
+          <input class="form3" placeholder="이메일" type="email" id="email" required/><br />
+          <input class="form4" placeholder="전화번호" type="tel" id="phone" required/><br />
+          <input class="form5" placeholder="포트폴리오 (필수x)" type="url" id="portfolio" /><br />
+          <input class="form6" placeholder="지원동기" type="text" id="motive"required /><br />
+
+          <input class="submit" type="submit" value="제출" />
+        </form>
+      </div>
+    </section>
+  </body>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        $("html, body").animate(
+          {
+            scrollTop: $("#section-1").offset().top,
+          },
+          1000
+        );
+      }, 5000);
+    });
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        document.body.style.overflow = "visible";
+      }, 5000);
+      document.body.style.overflow = "hidden";
+
+      const imgScroll = document.querySelector(".img-scroll");
+      window.addEventListener("scroll", () => {
+        const scrollY = window.scrollY;
+        imgScroll.scrollLeft = scrollY;
+      });
+    });
+  </script>
+  <script src="./js/apply.js"></script>
+</html>

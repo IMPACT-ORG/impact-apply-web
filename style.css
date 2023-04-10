@@ -1,0 +1,255 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+  font-family: "Pretendard", sans-serif;
+  letter-spacing: -4%;
+}
+body {
+  height: 5000px;
+}
+section {
+  height: 100vh;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textanimation {
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(4) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(5) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(6) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(7) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(8) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(9) {
+  animation: fade-in 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.img-1 {
+  margin-top: 20px;
+  overflow:hidden;
+  margin:0 auto;
+  width: 400px; 
+  height: 300px; 
+  margin: 20px;
+}
+.img-1 img {
+  width: 100%;
+  height: 100%; 
+  border-radius: 40px;
+  object-fit:cover;
+}
+.img-2 {
+  margin-top: 20px;
+  overflow:hidden;
+  margin:0 auto;
+  width: 400px; 
+  height: 300px; 
+  margin: 20px;
+}
+.img-2 img {
+  width: 100%;
+  height: 100%; 
+  border-radius: 40px;
+  object-fit:cover;
+}
+.img-3 {
+  margin-top: 20px;
+  overflow:hidden;
+  margin:0 auto;
+  width: 400px; 
+  height: 300px; 
+  margin: 20px;
+}
+.img-3 img {
+  width: 100%;
+  height: 100%; 
+  border-radius: 40px;
+  object-fit:cover;
+}
+.s5-box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.s5-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 220px;
+  background-color:rgba(36, 36, 36, 1)  ;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  margin: 16px;
+}
+.s6-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 220px;
+  background-color:rgba(36, 36, 36, 1);
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  margin: 16px;
+}
+.form1, .form2, .form3 , .form4, .form5{
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 36, 36, 0.5);
+  padding: 10px;
+  margin: 4px;
+}
+.form6{
+  width: 400px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 36, 36, 0.5);
+  padding: 10px;
+  margin: 4px;
+}
+.submit{
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 60px;
+  background-color: rgba(36, 36, 36, 1);
+  color: white;
+  font-weight: 300;
+}
+@media (max-width: 600px) {
+  .img{
+    flex-direction: column;
+  }
+  .img-1, .img-2, .img-3 {
+    margin-top: 20px;
+    overflow:hidden;
+    margin:0 auto;
+    width: 300px; 
+    height: 300px; 
+    margin: 20px;
+  }
+  .img-1 img {
+    width: 100%;
+    height: 100%; 
+    border-radius: 40px;
+    object-fit:cover;
+  }
+  .s5-box-container{
+    flex-direction: column;
+  }
+  .s6-box{
+    width: 280px;
+  }
+  .form1, .form2, .form3 , .form4, .form5{
+    width: 300px;
+    height: 30px;
+  }
+  .form6{
+    width: 300px;
+    height: 120px;
+  }
+  .submit{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 60px;
+    background-color: rgba(36, 36, 36, 1);
+    color: white;
+    font-weight: 300;
+  }
+  #section-2 .text-1{
+    margin-top: 500px;
+  }
+  #section-3 .text-1{
+    margin-top: 500px;
+  }
+  #section-5 .text-1{
+    margin-top: 500px;
+  }
+  #section-6 .text-1{
+    margin-top: 500px;
+  }
+  #section-7 .text-1{
+    margin-top: 700px;
+  }
+  #section-8 .text-1{
+    margin-top: 1000px;
+    padding-bottom: 100px;
+  }
+  .text{
+    font-size: 20px;
+    margin: 10px;
+  }
+}
