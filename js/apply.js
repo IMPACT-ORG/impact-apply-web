@@ -20,6 +20,7 @@ const form = document.querySelector('form');
       portfolio: portfolio
     })
     .then((docRef) => {
+      alert("지원이 완료되었습니다.");
       console.log("Document written with ID: ", docRef.id);
       form.reset(); // 폼 초기화
     })
