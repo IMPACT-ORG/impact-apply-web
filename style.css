@@ -5,7 +5,7 @@
   letter-spacing: -4%;
 }
 body {
-  height: 5000px;
+  height: 7000px;
 }
 section {
   height: 100vh;
@@ -179,6 +179,20 @@ span:nth-child(9) {
   padding: 10px;
   margin: 4px;
 }
+.form7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form7 p{
+  font-size: 14px;
+}
+.form7 input{
+  width: 14px;
+  height: 14px;
+  margin: 10px;
+}
 .submit{
   width: 100px;
   height: 40px;
@@ -201,7 +215,17 @@ span:nth-child(9) {
 
   background-color: rgba(0, 0, 0, 0.4);
 }
+iframe{
+  margin-top: 1000px;
+  border: none;
+}
 @media (max-width: 600px) {
+  iframe{
+    margin-top: 2200px;
+    width: 360px;
+    height: 3000px;
+    border: none;
+  }
   .img{
     flex-direction: column;
   }
